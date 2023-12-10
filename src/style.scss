@@ -1,0 +1,63 @@
+@import './assets/_scss/variables';
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: $font;
+}
+
+.flex{
+  display: flex;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.justify-content-between{
+  justify-content: space-between;
+}
+
+.justify-content-center{
+  justify-content: center;
+}
+
+.p-sides{
+ padding: 1rem 2rem;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.bg-yellow{
+  background: $yellow;
+}
+
+.bg-red{
+  background: $red;
+}
+
+.bg-black{
+  background: $black;
+}
+
+.text-red{
+  color: $red;
+}
+
+.text-gray{
+  color: $gray;
+}
+
+.text-white{
+  color: $white;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.mr-1{
+  margin-right: 1rem;
+}
